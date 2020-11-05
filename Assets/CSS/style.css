@@ -1,0 +1,12 @@
+body {
+  background-image: url(/Assets/Images/background.jpg);
+  background-color: rgba(red, green, blue, alpha);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+h1 {
+  color: green;
+}
