@@ -2,13 +2,21 @@
 
 body {
   margin: 0;
-  background-image: url(../Images/background.jpg);
-  background-color: rgba(red, green, blue, alpha);
+  /* background-image: url(../Images/background.jpg); */
+  background-color: rgba(0, 0, 0);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   font-family: 'Roboto', sans-serif;
   z-index: -1;
+}
+
+.main {
+  background-color: rgba(0, 0, 0);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 200px;
 }
 
 .overlay {
@@ -17,11 +25,17 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0,0,0,.4);
+  background: rgba(0,0,0,.6);
   z-index: -2;
 }
 
 .hero {
+  margin-top: 100px;
   color: white;
   z-index: 2;
+}
+
+.bluTxt {
+  color: rgba(0,123,255);
+  justify-items: center;
 }
