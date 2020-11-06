@@ -12,11 +12,18 @@ body {
 }
 
 .main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+
   background-color: rgba(0, 0, 0);
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
-  padding-bottom: 200px;
+  padding-bottom: 400px;
+  z-index: -3;
 }
 
 .overlay {
@@ -25,7 +32,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0,0,0,.6);
+  background: rgba(0,0,0,.7);
   z-index: -2;
 }
 
@@ -33,6 +40,10 @@ body {
   margin-top: 100px;
   color: white;
   z-index: 2;
+}
+
+.header {
+  padding-top: 150px;
 }
 
 .bluTxt {
