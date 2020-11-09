@@ -22,7 +22,7 @@ body {
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   background-size: cover;
-  padding-bottom: 400px;
+  /* padding-bottom: 400px; */
   z-index: -3;
 }
 
@@ -32,7 +32,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0,0,0,.7);
+  background: rgba(0,0,0,.6);
   z-index: -2;
 }
 
@@ -49,4 +49,16 @@ body {
 .bluTxt {
   color: rgba(0,123,255);
   justify-items: center;
+}
+
+.about {
+  
+  position: relative;
+}
+
+.aboutPic {
+  width: 38%;
+  border-radius: 10px;
+  position: relative;
+  display: inline-block;
 }
