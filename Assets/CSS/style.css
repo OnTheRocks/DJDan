@@ -17,13 +17,9 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-
-
   background-color: rgba(0, 0, 0);
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
   background-size: cover;
-  /* padding-bottom: 400px; */
   z-index: -3;
 }
 
@@ -34,7 +30,6 @@ body {
   top: 0;
   left: 0;
   background: rgba(0,0,0,.6);
-  /* z-index: -2; */
 }
 
 .hero {
@@ -50,5 +45,12 @@ body {
 .bluTxt {
   color: rgba(0,123,255);
   justify-items: center;
+}
+
+.imgAbout {  
+  border-radius: 10px;
+  margin-top: 50px;
+  max-width: 35%;
+  
 }
 
