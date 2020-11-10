@@ -12,7 +12,8 @@ body {
 }
 
 .main {
-  position: absolute;
+  /* position: absolute; */
+  display: inline-block;
   top: 0;
   left: 0;
   width: 100%;
@@ -33,7 +34,7 @@ body {
   top: 0;
   left: 0;
   background: rgba(0,0,0,.6);
-  z-index: -2;
+  /* z-index: -2; */
 }
 
 .hero {
@@ -51,14 +52,3 @@ body {
   justify-items: center;
 }
 
-.about {
-  
-  position: relative;
-}
-
-.aboutPic {
-  width: 38%;
-  border-radius: 10px;
-  position: relative;
-  display: inline-block;
-}
