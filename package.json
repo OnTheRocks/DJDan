@@ -2,7 +2,7 @@
   "name": "djdan",
   "version": "1.0.0",
   "description": "Adam's Website",
-  "main": "index.html",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "index.html"
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/OnTheRocks/DJDan/issues"
   },
-  "homepage": "https://github.com/OnTheRocks/DJDan#readme"
+  "homepage": "https://github.com/OnTheRocks/DJDan#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
