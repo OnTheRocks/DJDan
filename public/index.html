@@ -4,80 +4,81 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DJ Dan</title>
-
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="../Assets/CSS/style.css"></link>
+  <link rel="stylesheet" type="text/css" href="./Assets/CSS/style.css"></link>
   <script src="https://kit.fontawesome.com/beb763617f.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">DJ Dan</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
   
- <div class="main" style="background-image: url('../public/Assets/Images/background.jpg')"><span class="overlay"></span>
-
- <nav class="navbar navbar-expand-lg navbar-dark">
-  <a class="navbar-brand" href="#">DJ Dan</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav mx-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </ul>
-
-    <div class="info">
-      <a href="https://www.facebook.com/" target="blank"><i class="mr-2 fab fa-facebook" ></i></a>
-      <a href="https://www.twitter.com/" target="blank"><i class="mr-2 fab fa-twitter"></i></a>
-      <a href="https://www.instagram.com/" target="blank"><i class="mr-2 fab fa-instagram"></i></a>
-    </div>
-
-  </div>
-</nav>
-  
-    <div class="container" >
-      <div class="row">
-        <div class="col-sm hero">
-          <h1 class="display-4 text-center header ">Feel The <span class="bluTxt">Music</span></h1>
-          <p class="lead text-center"> Welcome to The Power Room. We are a fitness and training
-            center that focuses on pushing you to your absolute limit.
-            Download our complete brochure to get started today!</p>
-          <hr class="my-2 ">
-          <p class="text-center">It uses utility classes for typography and spacing to space content out within the larger container.</p>
-          <div class="col-md-12 text-center">
-            <button type="button" class="btn btn-lg btn-outline-primary">Learn More</button>
-          </div>
-        </div>
+      <div class="info">
+        <a href="https://www.facebook.com/" target="blank"><i class="mr-2 fab fa-facebook" ></i></a>
+        <a href="https://www.twitter.com/" target="blank"><i class="mr-2 fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/" target="blank"><i class="mr-2 fab fa-instagram"></i></a>
       </div>
+  
     </div>
-      <div>
+  </nav>
+
+  
+ <header class="hero">
+   <div class="container hero-inner">
+      <h1>Feel The <span class="bluTxt">Music</span></h1>
+        <p > Welcome to The Power Room. We are a fitness and training
+          center that focuses on pushing you to your absolute limit.
+          Download our complete brochure to get started today!
+          It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <div>
+            <button type="button" class="btn btn-lg btn-outline-primary mt-1">Learn More</button>
+        </div> 
+  </div>
+
+
+  
+
+
+      <!-- <div>
        <svg
          class="absolute bottom-0 overflow-hidden"
          xmlns="http://www.w3.org/2000/svg"
          preserveAspectRatio="none"
          version="1.1"
-         viewBox="0 0 500 100"
+         viewBox="0 0 500 99"
          x="0"
          y="0"
        >
          <polygon points="2560 0 2560 100 0 100"></polygon>
        </svg>
-     </div>
-  </div>
+     </div> -->
+
 
   <!-- About Section -->
-  <section id="about">
+  <!-- <section id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg pr-5">
@@ -102,10 +103,6 @@
             <div class="flex items-center">
               <div>
                 <h4 class="text-xl text-white"><span class="font-semibold inline-block py-3 mr-3 bluTxt fas fa-hard-hat"></span>     Hi quality music format</h4>
-                
-              </div>
-              <div>
-                
               </div>
             </div>
           </li>
@@ -126,7 +123,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
 
