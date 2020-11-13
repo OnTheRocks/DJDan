@@ -9,7 +9,10 @@ body {
 }
 
 .navbar {
-  /* position: fixed; */
+  vertical-align: top;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .container {
@@ -24,6 +27,8 @@ body {
   position: relative;
   color: #fff;
   height: 100vh;  
+  top: 0;
+  left: 0;
 }
 
 .hero::before {
