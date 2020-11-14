@@ -10,12 +10,12 @@ body {
   /* line-height: 2; */
 }
 
-.navbar {
-  /* vertical-align: top;
+/* .navbar {
+  vertical-align: top;
   top: 0;
   left: 0;
-  z-index: 1; */
-}
+  z-index: 1;
+} */
 
 .heroContainer {
   max-width: 960px;
@@ -83,7 +83,7 @@ body {
 
 .aboutCol2 {
   padding-top: 100px;
-  background: rgba(0,0,0,);
+  /* background: rgba(0,0,0,); */
   color: #fff;
   line-height: 2;
   /* border: blueviolet 5px solid; */
@@ -91,5 +91,12 @@ body {
 
 .aboutCol2 ul {
   list-style-type: none;
+}
+
+.contactContainer {
+  max-width: 500px; 
+  /* border: thin solid black;  */
+  border: thin solid rgba(0,123,255); 
+  background-color: ;
 }
 
