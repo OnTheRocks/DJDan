@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DJ Dan</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./Assets/CSS/style.css"></link>
   <script src="https://kit.fontawesome.com/beb763617f.js" crossorigin="anonymous"></script>
@@ -46,7 +47,7 @@
 
   <!------------------- Hero Section ------------------------------>
  <header class="hero">
-   <div class="heroContainer hero-inner">
+   <div class="heroContainer hero-inner" data-aos="fade-in">
       <h1>Feel The <span class="bluTxt">Music</span></h1>
         <p > Welcome to The Power Room. We are a fitness and training
           center that focuses on pushing you to your absolute limit.
@@ -74,20 +75,34 @@
   <!---------------------------- About Section ------------------->
   <div class="container mt-5">
     <div class="row">
-      <div class="col">
+      <div class="col" data-aos="fade-right">
         <img alt="..." class="aboutImg" src="./Assets/Images/about.jpg" >
       </div>
-      <div class="col aboutCol2">
+      <div class="col aboutCol2" data-aos="fade-left">
         <small class="bluTxt">About us</small>
         <h1 class=" text-uppercase ">Great Atmosphere</h1>
         <p class="mt-4 text-lg leading-relaxed">
           When you book DJ Dan, you can rest assured that you and your guests are going to have a GREAT time.
           Hear are a few of the things that make us stand out from the rest.
         </p>
-        <ul class="list-group danger mt-6">
-          <li class="list-group-item flex items-center">
-            <h4 class="text-xl"> The latest & greatest gym equipment</h4>
+        <ul class="list-group list-group-flush mt-6">
+
+          <li class="py-2">
+            <div class="">
+             <h4><span class="bluTxt "><i class="fas fa-music "></i></span>&nbsp &nbsp The hottest beats</h4>
+            </div>
           </li>
+          <li class="py-2">
+            <div class="">
+             <h4><span class="bluTxt "><i class="fas fa-play-circle "></i></span>&nbsp &nbsp Large varity of genres</h4>
+            </div>
+          </li>
+          <li class="py-2">
+            <div class="">
+             <h4><span class="bluTxt "><i class="fas fa-sliders-h "></i></span>&nbsp &nbsp The latest & greatest equipment</h4>
+            </div>
+          </li>
+
       </div>
     </div>
   </div>
@@ -95,7 +110,8 @@
 
 
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script>
+<script>AOS.init({delay: 200, duration: 1200, once: false})</script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
