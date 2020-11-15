@@ -66,18 +66,11 @@ body {
   font-size: 1.3rem;
 }
 
-.container {
-  /* border: blueviolet 5px solid; */
-  /* margin: auto;
-  overflow: hidden;
-  padding: 0 3rem; */
-}
-
 .aboutImg {    
-  border-radius: 10px;
-  margin-top: 15px;
+  /* border-radius: 10px;
+  margin-top: 15px; */
   max-width: 100%;
-  height: 65%;
+  height: auto;
   /* filter: grayscale(50%); */
 }
 
@@ -96,6 +89,7 @@ body {
 .contactContainer {
   max-width: 500px; 
   margin-bottom: 150px;
+  margin-top: 150px;
   /* border: thin solid black;  */
   border: thin solid rgba(0,123,255); 
   box-shadow: 0 0 200px 2px rgba(0,123,255);
