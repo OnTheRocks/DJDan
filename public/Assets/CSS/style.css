@@ -96,13 +96,27 @@ body {
   margin: auto;
 }
 
+.contactHead {
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  max-width: 500px; 
+}
+
+
+
 .contactContainer {
   max-width: 500px; 
   margin-bottom: 150px;
-  margin-top: 150px;
+  margin-top: 50px;
   /* border: thin solid black;  */
   border: thin solid rgba(0,123,255); 
   box-shadow: 0 0 200px 2px rgba(0,123,255);  
+}
+
+.contactContainer p {
+  text-align: center;
+  font-weight: bolder;
 }
 
 .contactContainer button {
