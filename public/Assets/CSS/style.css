@@ -9,6 +9,15 @@ body {
   background-color: black;
 }
 
+.navbar-dark {
+  transition: 500ms ease;
+}
+
+.navbar-dark.scrolled {
+  transition: ease;
+  background: black;
+}
+
 .heroContainer {
   max-width: 960px;
   margin: auto;
