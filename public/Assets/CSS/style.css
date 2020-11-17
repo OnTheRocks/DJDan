@@ -122,4 +122,8 @@ body {
 .contactContainer button {
   margin: auto;
 }
-
+ 
+footer {
+  z-index: 1;
+  background-color: rgba(0,123,255);
+}
