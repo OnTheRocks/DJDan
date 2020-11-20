@@ -36,7 +36,7 @@ body {
 
 .hero::before {
   content: '';
-  background: url('../Images/background.jpg') no-repeat center center/cover;
+  background: url('../Images/image2.jpg') no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -127,7 +127,5 @@ footer {
 }
 
 .footerHead hr {
-  /* colors: rgba(0,123,255)!important; */
-  /* border: yellow; */
   border-color:  rgba(0,123,255);
 }
