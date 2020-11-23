@@ -73,6 +73,10 @@ body {
   overflow: hidden;
 }
 
+.abt15 {
+  border: orange solid thick !important;
+}
+
 .aboutCol1 {
   padding-top: 100px;
   color: whitesmoke;
