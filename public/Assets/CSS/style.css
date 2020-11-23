@@ -73,10 +73,17 @@ body {
   overflow: hidden;
 }
 
+.aboutCol1 {
+  padding-top: 100px;
+  color: whitesmoke;
+  line-height: 2;
+  border: blueviolet solid thin;
+}
 .aboutCol2 {
   padding-top: 100px;
   color: whitesmoke;
   line-height: 2;
+  border: blueviolet solid thin;
 }
 
 .aboutCol2 ul {
