@@ -1,9 +1,11 @@
-var express = require('express');
+const express = require('express');
+const nodemailer = require('nodemailer');
+
  
-var server = express();
+const server = express();
 server.use(express.static(__dirname + '/public'));
  
-var port = process.env.PORT || 10001;
+const port = process.env.PORT || 10001;
 server.listen(port, function() {
     console.log('server listening on port ' + port);
 });
